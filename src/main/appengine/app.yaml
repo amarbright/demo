@@ -1,16 +1,3 @@
-#service: my-service
-#runtime: java
-#env: flexible
-#runtime_config:
-  #jdk: openjdk8
-#env_variables:
-  #SPRING_PROFILES_ACTIVE: "gcp"
-#handlers:
-#- url: /.*
- # script: this field is required, but ignored
-#beta_settings:
-  #cloud_sql_instances: amar-gae-project-342615:us-east1:amar-gae-postgresql=tcp:5432
-
 service: my-service
 env: flex
 runtime: java
