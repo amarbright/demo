@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "https://amar-gae-project-342615.ue.r.appspot.com")
+@CrossOrigin(origins = "https://asiya-gae-project.ue.r.appspot.com")
 @RestController
 public class TestController {
 
