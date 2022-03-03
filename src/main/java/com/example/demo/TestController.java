@@ -13,11 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 	@Autowired
-	private EmployeeRepository employeeRepository;
+	//private EmployeeRepository employeeRepository;
 
 	@RequestMapping(value = "/employees", method = RequestMethod.GET, produces = "application/json")
-	public List<Employee> findAll() {
-		return employeeRepository.findAll();
+	//public List<Employee> findAll() {
+	public String findAll() {
+		//return employeeRepository.findAll();
+		return "message: welcome";
 	}
 
 }

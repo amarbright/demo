@@ -1,11 +1,11 @@
 package com.example.demo;
 
-import javax.persistence.*;
+//import javax.persistence.*;
 
-@Entity
-@Table(name = "employee", schema = "public")
+//@Entity
+//@Table(name = "employee", schema = "public")
 public class Employee {
-	@Id
+	//@Id
 	private String empid;
 	private String name;
 	private String designation;
