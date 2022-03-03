@@ -52,15 +52,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>appengine-maven-plugin</artifactId>
-                <version>2.2.0</version>
-                <configuration>
-                    <deploy.projectId>asiya-gae-project</deploy.projectId>
-                    <deploy.version>1</deploy.version>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 
